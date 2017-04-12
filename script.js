@@ -50,18 +50,27 @@ printCars();
 
 // 4.Try running the script and then changing the variable's value to see how this affects the program's output.
 
-var status = "240";
+// var status = "240";
 
-if (status < 100) {
-	alert("variable is less than 100");
-} else if (status > 100)
-	alert(status + " " + "variable is greater than 100.");
+// if (status < 100) {
+// 	alert("variable is less than 100");
+// } else if (status > 100)
+// 	alert(status + " " + "variable is greater than 100.");
 
 
 // 5.Write a similar script to check if a string stored in a variable is the same as another string.
 
+var status = "100";
+
+if (status === 100) {
+	alert("Its the same string");
+} else if (status != 100)
+	alert("Its not the same string");
+
 
 // 6.Declare a function that takes a name as an argument and tells the user what name they've entered. Try running it after it has been declared.
+
+
 
 
 // 7.Declare a function that takes no arguments but prints something to the console. Try running it after it has been declared.
