@@ -40,17 +40,22 @@ printCars();
 
 // 3.Write a script that checks if a variable captured from a prompt is less than 100. If it is, alert the user that their variable is less than 100. If it is not alert the user of what the value was and that it was greater than 100.
 
-var status = "88";
+// var status = "88";
+
+// if (status < 100) {
+// 	alert("variable is less than 100");
+// } else if (status > 100)
+// 	alert(status + " " + "variable is greater than 100.");
+
+
+// 4.Try running the script and then changing the variable's value to see how this affects the program's output.
+
+var status = "240";
 
 if (status < 100) {
 	alert("variable is less than 100");
 } else if (status > 100)
 	alert(status + " " + "variable is greater than 100.");
-
-
-
-
-// 4.Try running the script and then changing the variable's value to see how this affects the program's output.
 
 
 // 5.Write a similar script to check if a string stored in a variable is the same as another string.
