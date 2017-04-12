@@ -70,13 +70,19 @@ printCars();
 
 // 6.Declare a function that takes a name as an argument and tells the user what name they've entered. Try running it after it has been declared.
 
-function shouldRun(name) {
-	alert(name);
-}
-shouldRun("Ethan");
+// function shouldRun(name) {
+// 	alert(name);
+// }
+// shouldRun("Ethan");
 
 
 // 7.Declare a function that takes no arguments but prints something to the console. Try running it after it has been declared.
+
+function myCoolThing() {
+	console.log('Hello World')
+}
+
+myCoolThing();
 
 
 // 8.Declare a function that depending upon which virtual 'door' was entered tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options. There must be at least 3 doors.
