@@ -87,23 +87,22 @@ printCars();
 
 // 8.Declare a function that depending upon which virtual 'door' was entered tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options. There must be at least 3 doors.
 
-var status = "openDoor";
 
-function shouldOpen(status) {
-
-	if (status === "openDoor") {
-		alert("WIN A CAR");
-	} else if (status === "openDoor2") {
-		alert("YOU WIN A MILLION DOLLARS");
-	} else if (status === "openDoor3") {
-		alert("YOU WIN ONE DOLLAR")
-	} else {
-		alert("you win nothing");
-	}
-
+function openDoor(doorName) {
+    if (doorName === "door1") {
+        alert("WIN A CAR");
+    } else if (doorName === "door2") {
+        alert("YOU WIN A MILLION DOLLARS");
+    } else if (doorName === "door3") {
+        alert("YOU WIN ONE DOLLAR")
+    } else {
+        alert("you win nothing");
+    }    
 }
 
-shouldOPen(status);
+openDoor("door1");
+// openDoor("door2");
+// openDoor("door3");
 
 
 
