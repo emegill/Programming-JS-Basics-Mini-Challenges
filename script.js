@@ -78,14 +78,38 @@ printCars();
 
 // 7.Declare a function that takes no arguments but prints something to the console. Try running it after it has been declared.
 
-function myCoolThing() {
-	console.log('Hello World')
-}
+// function myCoolThing() {
+// 	console.log('Hello World')
+// }
 
-myCoolThing();
+// myCoolThing();
 
 
 // 8.Declare a function that depending upon which virtual 'door' was entered tells the user they've received a different 'prize' in an alert. After declaring the function, try running it with different options. There must be at least 3 doors.
+
+var status = "openDoor";
+
+function shouldOpen(status) {
+
+	if (status === "openDoor") {
+		alert("WIN A CAR");
+	} else if (status === "openDoor2") {
+		alert("YOU WIN A MILLION DOLLARS");
+	} else if (status === "openDoor3") {
+		alert("YOU WIN ONE DOLLAR")
+	} else {
+		alert("you win nothing");
+	}
+
+}
+
+shouldOPen(status);
+
+
+
+
+
+
 
 
 
